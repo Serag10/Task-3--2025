@@ -1,0 +1,71 @@
+1-
+نبدأ عند العنصر الثاني (Sara = 90) ونقارنه بـ (Ahmed = 180).
+
+90 أصغر من 180 → لا حاجة للتغيير.
+
+[Ahmed (180), Sara (90), Omar (220), Layla (110), Khaled (150), Youssef (250), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+2-
+العنصر الحالي: Omar = 220
+
+220 أكبر من 90 
+220 أكبر من 180 
+
+[Omar (220), Ahmed (180), Sara (90), Layla (110), Khaled (150), Youssef (250), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+3-
+العنصر الحالي: Layla = 110
+
+110 أكبر من 90 
+[Omar (220), Ahmed (180), Layla (110), Sara (90), Khaled (150), Youssef (250), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+4-
+العنصر الحالي: Khaled = 150
+
+150 أكبر من 90 
+150 أكبر من 110 
+[Omar (220), Ahmed (180), Khaled (150), Layla (110), Sara (90), Youssef (250), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+
+5-
+العنصر الحالي: Youssef = 250
+
+250 أكبر من 90، 110، 150، 180،
+[Youssef (250), Omar (220), Ahmed (180), Khaled (150), Layla (110), Sara (90), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+6-
+العنصر الحالي: Fatima = 85
+
+[Youssef (250), Omar (220), Ahmed (180), Khaled (150), Layla (110), Sara (90), Fatima (85), Mahmoud (195), Amina (140), Hassan (175)]
+
+7-
+العنصر الحالي: Mahmoud = 195
+
+195 أكبر من 90، 110، 150، 180 [Youssef (250), Omar (220), Mahmoud (195), Ahmed (180), Khaled (150), Layla (110), Sara (90), Fatima (85), Amina (140), Hassan (175)]
+
+8-
+العنصر الحالي: Amina = 140
+
+140 أكبر من 90
+[Youssef (250), Omar (220), Mahmoud (195), Ahmed (180), Khaled (150), Amina (140), Layla (110), Sara (90), Fatima (85), Hassan (175)]
+
+9-
+العنصر الحالي: Hassan = 175
+
+175 أكبر من 90، 110، 140
+[Youssef (250), Omar (220), Mahmoud (195), Ahmed (180), Hassan (175), Khaled (150), Amina (140), Layla (110), Sara (90), Fatima (85)]
+ 
+solve =>
+
+الترتيب	اسم المريض	مستوى السكر (mg/dL)
+1	Youssef	250
+2	Omar	220
+3	Mahmoud	195
+4	Ahmed	180
+5	Hassan	175
+6	Khaled	150
+7	Amina	140
+8	Layla	110
+9	Sara	90
+10	Fatima	85
+
