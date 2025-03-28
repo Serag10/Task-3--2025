@@ -1,0 +1,27 @@
+abdallah abdelsaime abdallah serag
+Classifying Skin Lesions into Categories
+Problem:
+
+import pandas as pd
+
+data = [
+    ("IMG_001", "Benign", 2),
+    ("IMG_002", "Malignant", 9),
+    ("IMG_003", "Pre-cancerous", 6),
+    ("IMG_004", "Malignant", 10),
+    ("IMG_005", "Benign", 3),
+    ("IMG_006", "Pre-cancerous", 7),
+    ("IMG_007", "Malignant", 8),
+    ("IMG_008", "Benign", 1)
+]
+
+df = pd.DataFrame(data, columns=["Image ID", "Lesion Type", "Severity Score"])
+
+df_sorted = df.sort_values(by="Severity Score", ascending=False)
+
+grouped = {lesion_type: df_sorted[df_sorted["Lesion Type"] == lesion_type] for lesion_type in df_sorted["Lesion Type"].unique()}
+
+
+for category, group in grouped.items():
+    print(f"\nCategory: {category}")
+    print(group)
